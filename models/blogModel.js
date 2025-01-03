@@ -13,7 +13,7 @@ const blogSchema = new Schema({
     default: 0,
   },
   likes: {
-    type: Number,
+    type: [Number],
     default: 0,
   },
   date: Date,
